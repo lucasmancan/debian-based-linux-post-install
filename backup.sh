@@ -24,7 +24,6 @@ sudo apt install -y gnome-software-plugin-flatpak
 sudo apt install -y unzip
 sudo apt install -y vlc
 
-
 sudo apt-get install -y fonts-roboto
 sudo apt-get install -y ubuntu-restricted-extras
 sudo apt-get install -y libdvdcss2 libdvdnav4 libdvdread4
@@ -47,10 +46,10 @@ sudo apt install -y python3
 sudo apt install -y python-pip
 sudo apt install docker.io
 sudo chown $USER /var/run/docker.sock
-sudo snap install -y postman
-sudo snap install -y code --classic
-sudo snap install -y intellij-idea-ultimate --classic
-
+sudo snap install postman
+sudo snap install code --classic
+sudo snap install intellij-idea-ultimate --classic
+sudo snap install discord
 
 # media 
 sudo snap install -y spotify
@@ -77,6 +76,3 @@ echo The process is finished............
 echo ==================================================================
 
 sleep 5
-
-
-
