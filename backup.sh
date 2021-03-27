@@ -49,6 +49,9 @@ sudo apt-get install -y yarn
 sudo apt install -y python3       
 sudo apt install -y python-pip
 sudo apt install docker.io
+sudo apt install docker-compose
+sudo groupadd docker
+sudo usermod -aG docker $USER
 sudo chown $USER /var/run/docker.sock
 sudo snap install postman
 sudo snap install code --classic
