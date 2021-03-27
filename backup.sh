@@ -65,6 +65,10 @@ wget http://archive.ubuntu.com/ubuntu/pool/multiverse/f/fdk-aac/libfdk-aac1_0.1.
 sudo dpkg -i libfdk-aac1_0.1.5-1_amd64.deb
 sudo apt install ./stremio_4.4.116-1_amd64.deb
 
+wget http://archive.ubuntu.com/ubuntu/pool/universe/x/x264/libx264-152_0.152.2854+gite9a5903-2_amd64.deb
+
+sudo dpkg -i libx264-152_0.152.2854+gite9a5903-2_amd64.deb
+
 ## Only in ubuntu
 #wget http://archive.ubuntu.com/ubuntu/pool/universe/x/x264/libx264-152_0.152.2854+gite9a5903-2_amd64.deb
 
