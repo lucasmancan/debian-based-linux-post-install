@@ -32,7 +32,6 @@ sudo apt-get install -y fonts-roboto
 sudo apt-get install -y ubuntu-restricted-extras
 sudo apt-get install -y libdvdcss2 libdvdnav4 libdvdread4
 sudo apt-get install -y unace p7zip-rar sharutils rar arj lunzip lzip gdebi
-sudo apt-get install -y ttf-mscorefonts-installer
 
 # dev tools
 
@@ -48,14 +47,14 @@ sudo apt install -y default-jdk
 sudo apt-get install -y yarn
 sudo apt install -y python3       
 sudo apt install -y python-pip
-sudo apt install docker.io
-sudo apt install docker-compose
+sudo apt install -y docker.io
+sudo apt install -y docker-compose
 sudo groupadd docker
 sudo usermod -aG docker $USER
 sudo chown $USER /var/run/docker.sock
 sudo snap install postman
 sudo snap install code --classic
-sudo snap install intellij-idea-ultimate --classic
+sudo snap install intellij-idea-community --classic
 sudo snap install discord
 
 # media 
@@ -80,10 +79,3 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt install -y --fix-broken
 sudo apt autoremove -y
-
-
-echo ==================================================================
-echo The process is finished............
-echo ==================================================================
-
-sleep 5
