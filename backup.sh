@@ -15,12 +15,7 @@ sudo apt install -y --fix-broken
 sudo apt install -y gnome-shell-extensions
 
 sudo apt install -y software-properties-common checkinstall wget curl gpg
-sudo apt install -y build-essential libssl-dev gcc automake screen zlib1g-dev libjpeg-dev
-sudo apt install -y filezilla
-sudo apt install -y synaptic
-sudo apt install -y xvfb
-sudo apt install -y gwenview
-sudo apt install -y gdebi
+sudo apt install -y build-essential
 sudo apt install -y snapd
 sudo apt install -y flatpak
 sudo apt install -y gnome-tweak-tool
@@ -30,8 +25,7 @@ sudo apt install -y vlc
 
 sudo apt-get install -y fonts-roboto
 sudo apt-get install -y ubuntu-restricted-extras
-sudo apt-get install -y libdvdcss2 libdvdnav4 libdvdread4
-sudo apt-get install -y unace p7zip-rar sharutils rar arj lunzip lzip gdebi
+
 
 # dev tools
 
@@ -61,15 +55,6 @@ sudo snap install discord
 sudo snap install -y spotify
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
-
-wget https://dl.strem.io/shell-linux/v4.4.116/stremio_4.4.116-1_amd64.deb
-wget http://archive.ubuntu.com/ubuntu/pool/multiverse/f/fdk-aac/libfdk-aac1_0.1.5-1_amd64.deb 
-sudo dpkg -i libfdk-aac1_0.1.5-1_amd64.deb
-sudo apt install ./stremio_4.4.116-1_amd64.deb
-
-wget http://archive.ubuntu.com/ubuntu/pool/universe/x/x264/libx264-152_0.152.2854+gite9a5903-2_amd64.deb
-
-sudo dpkg -i libx264-152_0.152.2854+gite9a5903-2_amd64.deb
 
 ## Only in ubuntu
 #wget http://archive.ubuntu.com/ubuntu/pool/universe/x/x264/libx264-152_0.152.2854+gite9a5903-2_amd64.deb
