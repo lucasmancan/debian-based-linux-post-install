@@ -29,7 +29,7 @@ sudo apt-get install -y ubuntu-restricted-extras
 
 # dev tools
 
-sudo apt-get install -y openjdk-8-jdk
+sudo apt-get install -y openjdk-11-jdk
 sudo apt-get install -y maven
 sudo apt-get install -y gufw
 sudo apt-get install -y golang
